@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "assetBundlePatterns": [
+      "assets/fonts/*"
+    ],
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "jobQuest",
+    "slug": "jobQuest",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b05aab0d-374d-4d5a-a4d4-e4702c81e682"
+      }
+    },
+    "android": {
+      "package": "com.ambesh333.jobQuest"
+    }
+  }
+}
